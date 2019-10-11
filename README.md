@@ -1,7 +1,7 @@
 # TEST USE CASES 
 
 
-#### Python script to export metadata from Kubernetes cluster
+# 1. Python script to export metadata from Kubernetes cluster
   PATH="/root/SECURE-DEMO/api"
   ENV = SYSAWS
   
@@ -11,12 +11,12 @@
 - python get_data.py <API_TOKEN>
 - Review create_dashboard.py, get_data.py
 
-# Create custom dashboard for Kubernetes objects including PVs
+# 2. Create custom dashboard for Kubernetes objects including PVs
 IBMDASHBOARD
  
 
 
-# Possibility of automating the custom dashboard creation in a new sysdig environment rather than creating from scratch
+# 3. Possibility of automating the custom dashboard creation in a new sysdig environment rather than creating from scratch
 
 
 ### Download Dashboards  (REPLACE DASHBOARD ID 133729 with ORIGINAL DASHBOARD ID)
@@ -29,7 +29,7 @@ IBMDASHBOARD
 #### curl -X POST https://app.sysdigcloud.com/api/v2/dashboards -H 'Authorization: Bearer <TOKEN>' -H 'Content-Type: application/json' -d @dashboard.json 
  
 
-# View to show the affinity with external services (outside kubernetes cluster) and export of the same
+# 4. View to show the affinity with external services (outside kubernetes cluster) and export of the same
 - /root/SECURE-DEMO/sysdig_demo/externaldb
 
 Kubernetes
