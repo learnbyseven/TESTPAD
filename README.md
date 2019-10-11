@@ -10,6 +10,9 @@
 - python create_dashboard.py <API_TOKEN>
 - python get_data.py <API_TOKEN>
 - Review create_dashboard.py, get_data.py
+
+# Create custom dashboard for Kubernetes objects including PVs
+IBMDASHBOARD
  
 
 
