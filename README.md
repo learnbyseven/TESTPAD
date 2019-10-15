@@ -7,9 +7,8 @@
   
 #### SYSDIG_PYTHON CLIENT : https://github.com/draios/python-sdc-client
 
-- python create_dashboard.py <API_TOKEN>
-- python get_data.py <API_TOKEN>
-- Review create_dashboard.py, get_data.py
+- python get_data.py <API_TOKEN> (Review "metrics") 
+- python create_dashboard.py <API_TOKEN> (Review "view") 
 
 # 2. Create custom dashboard for Kubernetes objects including PVs
 IBMDASHBOARD
