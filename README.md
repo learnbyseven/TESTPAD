@@ -51,4 +51,28 @@ Metrics - Topology MAP Response Time
 
 
 
-USECASES
+# USECASES
+## Connection alerts
+1. External service availability
+2. Database connection
+3. AMQ availability
+
+## POD
+1. Deployments
+2. Availability
+3. Memory /JVM
+
+## Scaling
+1. Response time (DB Call, service call)
+
+## Database
+1. Space alerts
+2. long running queries
+3. no. of connections
+
+
+
+
+
+
+
