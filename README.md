@@ -1,5 +1,5 @@
 # TEST USE CASES 
-
+https://www.redhat.com/en/blog/custom-grafana-dashboards-red-hat-openshift-container-platform-4
 
 # 1. Python script to export metadata from Kubernetes cluster
   PATH="/root/SECURE-DEMO/api"
