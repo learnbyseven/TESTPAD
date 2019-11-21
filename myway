@@ -1,0 +1,26 @@
+
+
+Sysdig Secure 
+
+What ?
+---
+Vulnerability Management 
+
+how ?
+Image scanning anchor 
+
+
+
+When and Where ?
+
+Application images are building through automation commonly known as CI/CD in agile development methodology
+Application images are stationary inside pulic/private container registry 
+Application images coexist with their running instances aka containers over the container orchestrator / cloud native platforms
+
+Extended : 
+This Image scan not only target vulnerabilities , Its contemplate other important factors
+- 
+Application images coexist with their running instances aka containers over the container orchestrator / cloud native platforms 
+
+
+compliance, detection, incident response and forensics in Cloud-native environments
