@@ -24,3 +24,63 @@ Application images coexist with their running instances aka containers over the 
 
 
 compliance, detection, incident response and forensics in Cloud-native environments
+
+---------
+Changes :
+- Software is heart of inovation
+- Every business is fueled by SW
+- High shift from mono ---> distributed 
+- Catalyst - Cloud - Container - Container Orchestrator C3
+- Key challenges moving from traditional - Modern distributed arch brings a good amout of challenges 
+  - Loss of cloud ntive visbility 
+  - Nothing static as earlier - Dynamic nd ephermal 
+  - Services are first class citizens now 
+  - SIEM or tradational tools ad platform may not understand these modern techs and practices 
+  
+  Val prop :
+  - Mend the cloud native visibility gap
+  - Lower risk --> reduce cost
+  - manage risk, health , performance 
+  - 3 x faster in dev-ops adoption transformation or adopting CN techs
+  - 95 % reduce risks
+  - % increase in efficency 
+  
+  How SD do devsecops --- 
+  
+  Devsecops - helps app teams to deliver secure / reliable services / development faster 
+  
+  Code - Platform - Agile development 
+  
+  Vul- Mangement:
+  Closer to developer 
+  Developer pipe line - before it deployed to prod 
+  vul free - image build and deployment 
+  Maintain Risk and compliance of your Image , @ build @ Stored in registry @ Even images running containers in production 
+  
+  Image scanning Policies - Enforce control to Block threat 
+             Target - Build pipeline
+                      Prod env
+                      Registry 
+             Action : Stop - build process based on policy evaluation 
+                      warn 
+                      
+  Runtime alerting : - Unscanned image deployed 
+                     - Vul discovered in prod
+                     - Pass and fail results of post image scan 
+  Vulnerabilities feed : We keep updating of DB with the latest feed from NVD, OS and Software vendors 
+  
+  
+                      
+  
+  
+  Application Monitoring or observability 
+  
+  - Single window or pane
+  - Multi env or multi cloud 
+  
+  
+  
+  
+  
+  
+  
