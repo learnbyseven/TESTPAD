@@ -2,3 +2,57 @@ docker run --name ngp --mount type=bind,source=/root/ngpdata/html/,target=/usr/s
 
 
 docker run --name ngp --mount type=bind,source=/root/ngpdata/html/,target=/usr/share/nginx/html,readonly -p 80:80 -d nginxplus
+
+
+
+
+
+NGINX 
+
+IMP - 
+2 MB - APIG/LB/IC/RP/
+CONT - UPLEVEL - MON/OBSER/ANALYTICS
+BRAND LOYALITY- MORE FINISHED GOODS - SELLING IS DISRUPTIVE - SIT ACROSS PERSONA
+
+
+13-3 PITCH 
+C- C is really compelling 
+
+THREE CHALLENGS
+1- CE
+2. Business agility 
+3. Digital ROI 
+
+OVERUSED 
+
+COMPLEX, NO VISIBILITY 
+
+INFRA LOCKIN ---TIED  
+
+---- SECURITY?NETWORK --- AUTOMATION (MANUAL --) 
+
+ ---- TOOL SPRAWL 
+ 
+ --CHANGE <<<<< RESISTANCE -- THIS CHANGE IMPROVE THE EFFICENCY - REDUCE COMPLEXITY - ENHANCE STABILITY - RISK FREE -- BETTER ROI -- USECASES/EXAMPLES
+ 
+ 
+ CONTROLLER UNLOCK 3.0 INDIGO 
+ 
+ ADC 
+ SEC
+ ANALY
+ APM
+ SMesh
+ 
+ IMP - DECLARATIVE APIs, API DRIVEN - ECOSYSTEM -CONTROLLER (COLAB) - SELF SERVICE 
+ 
+ IKC - SERVICE_MESH 
+ 
+ TWOOOOO QUEST
+ 
+ - WHERE ARE YOU WITH KUB  -DEV ? 
+ - DO YOU USE MORE CLOUD - DEPLOYING ?
+ 
+ SOFTWARE MIGRATION 
+ 
+ APP MODERNIZATION 
