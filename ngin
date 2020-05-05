@@ -1,3 +1,8 @@
+Check subscription 
+. /usr/lib/nginx-plus/check-subscription
+
+
+
 docker run --name ngp --mount type=bind,source=/root/ngpdata/html/,target=/usr/share/nginx/html,readonly --mount source=/root/ngpdata/conf/,target=/etc/nginx/conf,readonly -p 80:80 -d nginxplus
 
 
