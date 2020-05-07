@@ -1,0 +1,40 @@
+
+-----------------------------
+-                           -
+-                           -
+-                           -
+-                           -
+-                           -
+-                           -
+-                           -
+-----------------------------
+
+
+^\ COMPREHENSIVE --- NGINX MONITORING ---> WEB APP PERFORMANCE BOTTLENECKS 
+                                      ---> DDOS ATTACKS 
+                                      ---> SYSTEM HEALTH
+                                      
+                 --- ALERTING ---> NOTIFICATION 
+                                      
+                 --- CONFIGURATION  ---> GUI
+                 --- ANALYTICS      ---> RECOMMENDATIONS/ADVICE BEST PRACTICES 
+             
+                 
+  
+  BENEFITS - PROACTIVE ANALYZE , FIX PROBLEM, CONFIGURE -----------------NGINX BASED WEB APPLICTION 
+                                                                                     SCALING APPLICATION
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+  NC ARCH 
+  
+  NC server - API, ANALYTICS ENGINE, DB METRICS COLLECTOR 
+  NC ui - TLS/SSL
+  NC agent - PYTHON AGENT ---- TRAFFIC INITIATOR 
+  
+  
+  
+  
+  
+  
