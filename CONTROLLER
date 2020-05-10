@@ -34,6 +34,26 @@
   NC agent - PYTHON AGENT ---- TRAFFIC INITIATOR 
   
   
+  API Management 
+  - Define APIs
+  - Publish APIs
+  - Expose them Via API gateway 
+  - Deploy API Document at Devportal 
+  
+  Environment
+   - LogicalGrouping APIs,Gateway, Certs 
+     - Grouping for common goal, AC,Quota
+  
+  
+  API 
+  -Single https://api.x.com/
+  - Multiple URIs https://api.x.com/aservice
+                  https://api.x.com/bservice
+  - Workloadgroups for APIs
+  - Identity provider 
+  
+  
+  
   
   
   
