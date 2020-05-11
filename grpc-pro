@@ -1,0 +1,20 @@
+syntax ="proto3";
+
+message Person {
+ int 32 age = 1;
+ string first_name = 2;
+ bool is_profile_verified =3;
+ bytes snall_picture=4;
+ float height=5;
+ repeated string phone_numbers =7; // list
+ enum EyeColor {
+     UNKOWN_EYE_COLOR = 0;
+     EYE_GREEN
+     EYE_BLUE
+     EYE_BLACK
+ 
+ }
+ 
+ Default value for typed = 
+bool =false
+int32 = 0
