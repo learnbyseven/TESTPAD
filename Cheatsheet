@@ -1,6 +1,6 @@
 Selfsigned certs 
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
-
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx.key -out /etc/ssl/certs/nginx.crt
 AD-Linux issue 
 #apt-get install samba krb5-config krb5-user winbind libpam-winbind libnss-winbind
 #realm join -v -U duser giri.loca
