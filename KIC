@@ -1,1 +1,33 @@
 
+Dashboard & Promethues
+----------------------
+//Ingress deployment changes that need to be made
+//Arg section changes to enable Dashboard and promethues 
+ args:
+          - -nginx-plus
+          - -nginx-configmaps=$(POD_NAMESPACE)/nginx-config
+          - -default-server-tls-secret=$(POD_NAMESPACE)/default-server-secret
+          - -enable-prometheus-metrics
+          - -report-ingress-status
+          - -nginx-status-allow-cidrs=192.168.1.0/24
+          - -health-status
+          - -nginx-status
+
+//Container section 
+containers:
+      - image: giriraj789/nginx-plus-ingress:v170
+        name: nginx-plus-ingress
+        ports:
+        - name: http
+          containerPort: 80
+          hostPort: 80
+        - name: https
+          containerPort: 443
+          hostPort: 443
+        - name: prometheus
+          containerPort: 9113
+        - name: dashboard
+          containerPort: 8080
+          hostPort: 8080
+        securityContext:
+          allowPrivilegeEscalation: true
