@@ -34,6 +34,31 @@ containers:
           
 Ingress definations
 -------------------
+1. Basic Conf
+
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: 
+spec:
+  tls:
+  - hosts:
+    - carsbikes.192.168.1.12.nip.io
+    secretName: njs-secret
+  rules:
+  - host: carsbikes.192.168.1.12.nip.io
+    http:
+      paths:
+      - path: /cars
+        backend:
+          serviceName: cars-svc
+          servicePort: 80
+      - path: /bikes
+        backend:
+          serviceName: bikes-svc
+          servicePort: 80
+
+
 
 1. Use case Redirect 
 
