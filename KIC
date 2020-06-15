@@ -31,3 +31,37 @@ containers:
           hostPort: 8080
         securityContext:
           allowPrivilegeEscalation: true
+          
+Ingress definations
+-------------------
+
+1. Use case Redirect 
+
+root@kubecore:~/kic# cat njs-ingress.yaml 
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: njs
+  annotations:
+    nginx.org/proxy-connect-timeout: "30s"
+    nginx.org/proxy-read-timeout: "20s"
+    nginx.org/client-max-body-size: "4m"
+    nginx.org/server-snippets: |
+      location / {
+        return 302 /users;
+      }
+spec:
+  rules:
+  - host: njs.192.168.1.12.nip.io
+    http:
+      paths:
+      - path: /products
+        backend:
+          serviceName: njs
+          servicePort: 8081
+      - path: /users
+        backend:
+          serviceName: njs
+          servicePort: 8081
+
+
