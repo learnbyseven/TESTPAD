@@ -2,7 +2,7 @@
 Dashboard & Promethues
 ----------------------
 //Ingress deployment changes that need to be made
-//Arg section changes to enable Dashboard and promethues 
+//Arg section changes/Tally to enable Dashboard and promethues 
  args:
           - -nginx-plus
           - -nginx-configmaps=$(POD_NAMESPACE)/nginx-config
