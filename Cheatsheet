@@ -10,3 +10,6 @@ root@gw2:~# cat /etc/krb5.conf
 [libdefaults]
 default_realm = GIRI.LOCAL
 rdns = false
+
+PG server
+docker run -d -p 5432:5432 --restart always --name=postgres -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root@123 postgres
