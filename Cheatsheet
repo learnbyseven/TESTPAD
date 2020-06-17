@@ -10,6 +10,20 @@ root@gw2:~# cat /etc/krb5.conf
 [libdefaults]
 default_realm = GIRI.LOCAL
 rdns = false
+cat > /etc/docker/daemon.json <<EOF
+{
+  "exec-opts": ["native.cgroupdriver=systemd"],
+  "log-driver": "json-file",
+  "log-opts": {
+    "max-size": "100m"
+  },
+  "storage-driver": "overlay2"
+}
+EOF
+systemctl daemon-reload
+systemctl restart docker
+systemctl enable docker
+
 
 PG server
 docker run -d -p 5432:5432 --restart always --name=postgres -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root@123 postgres
