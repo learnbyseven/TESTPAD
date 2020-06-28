@@ -1,1 +1,12 @@
 
+Running Nginx & Nginx Plus as a container on RHEL8 with Podman 
+
+RHEL8 is an intelligent OS design by Redhat for running modern workloads in Hybrid environment. It is higly consitent and
+comptable with various third party softwares, hardwares and prominent public and private cloud providers today and loaded up with some fabulous features
+like built in mangement, predictive analysis which differentiate it from other enterpise grade OS.
+ 
+The default container engine for RHEL8 OS family is the "Podman". It is expecinally seecure, efficent and deamonless container engine for deploying 
+containerised applications.
+
+
+
