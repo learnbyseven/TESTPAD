@@ -32,4 +32,16 @@ docker run -d -p 5432:5432 --restart always --name=postgres -e POSTGRES_USER=roo
 #apt remove --purge nginx-controller-agent
 
 
-098453 54579
+---
+- hosts: back-end-servers
+  tasks:
+
+  - name: update apt cache 
+    apt:
+     update_cache: yes
+  - name: Install Nginx plus 
+    include_role:
+       name: nginxinc.nginx
+
+
+
