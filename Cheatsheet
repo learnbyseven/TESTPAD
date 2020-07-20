@@ -54,5 +54,8 @@ Centos/RH trust store
 /etc/pki/ca-trust/source/anchors/
 update-ca-trust
 
-
+ldapsearch -H ldaps://ad.giri.local -x -W -D "test@giri.local" -b "dc=giri,dc=local" "(sAMAccountName=user)"
+ldapsearch -H ldap://ad.giri.local -x -W -D "test@giri.local" -b "dc=giri,dc=local" "(sAMAccountName=user)"
+openssl s_client -connect ad.giri.local:636 -showcerts < /dev/null
+*tylersguid is site name
 
