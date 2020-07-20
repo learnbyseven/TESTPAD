@@ -48,3 +48,11 @@ docker run -d -p 5432:5432 --restart always --name=postgres -e -e 7037702735 POS
 08099891917_kk@airtelbroadband.in
 
 
+
+Centos/RH trust store
+
+/etc/pki/ca-trust/source/anchors/
+update-ca-trust
+
+
+
