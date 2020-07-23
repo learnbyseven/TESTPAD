@@ -64,3 +64,10 @@ ldapsearch -ZZ -h  ad.giri.local -D test@giri.local -W -b OU=users,DC=giri,DC=lo
 
 ldapsearch -x -h ad.giri.local -b dc=giri,dc=local -D cn=cat,cn=Users,dc=giri,dc=local -W "uid=test"
 
+
+2
+4
+18
+19
+28
+
