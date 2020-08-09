@@ -71,3 +71,20 @@ ldapsearch -x -h ad.giri.local -b dc=giri,dc=local -D cn=cat,cn=Users,dc=giri,dc
 19
 28
 
+
+
+
+
+
+
+CREATE TABLE emp (
+  ID SERIAL PRIMARY KEY,
+  name VARCHAR,
+  title VARCHAR,
+  age INTEGER,
+  department VARCHAR
+);
+
+
+
+
