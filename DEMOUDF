@@ -49,4 +49,22 @@ GAPI
 cp_mainapp_api
 Component to Mainapp
 wl_mainapp_apihttp://main
-app.nginx-udf.internal:30511
+http://mainapp.nginx-udf.internal:30511
+
+
+
+JWT
+---
+
+jwt-bearer-sso-apm
+JWT Bearer SSO
+
+{
+"keys": [
+      {
+      "k": "aWxvdmVuZ2lueA",
+      "kid": "9876543210",
+      "kty": "oct"
+      }
+   ]
+}
