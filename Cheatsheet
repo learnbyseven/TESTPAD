@@ -26,7 +26,8 @@ systemctl enable docker
 
 
 PG server
-docker run -d -p 5432:5432 --restart always --name=postgres -e -e 7037702735 POSTGRES_USER=root -e POSTGRES_PASSWORD=root@123 postgres
+docker run -d -p 5432:5432 --restart always --name=postgres -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root@123 postgres
+e-70-61-7037702735 
 
 
 #apt remove --purge nginx-controller-agent
