@@ -9,3 +9,19 @@
 7. Cisco : APIG : Karthik 
 
 
+
+
+Query to NJS product team by Rajesh.B
+
+I am looking for a way to decrypt the request payload (json/xml) where i would have a private key securely stored within Nginx, Its a customer requirement , 
+They applied double encryption on the message (RSA 256/AES 256). RSA 256 to decrypt the header where i would have a key to decrypt - using AES256 - the body.
+
+
+Few inputs from NJS team:
+
+you may find existing JS libraries which would work with njs, but encryption/decryption  usually involves heavy math which means njs is not the best solution here (cannot be used under heavy traffic), because njs is interpreter.
+We plans to add native Web Crypto support in the future: https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto
+MDN Web DocsMDN Web Docs
+SubtleCrypto
+The SubtleCrypto interface of the Web Crypto API provides a number of low-level cryptographic functions. Access to the features of SubtleCrypto is obtained through the subtle property of the Crypto object you get from Window.crypto.
+
