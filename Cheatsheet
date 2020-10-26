@@ -89,3 +89,6 @@ CREATE TABLE emp (
 
 
 
+HEADER_PAYLOAD=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IjAwMDEifQ.eyJuYW1lIjoiUXVvdGF0aW9uIFN5c3RlbSIsInN1YiI6InF1b3RlcyIsImlzcyI6Ik15IEFQSSBHYXRld2F5In0
+curl -H 'Accept: application/json' -H "Authorization: Bearer `cat quotes.jwt`" http://ngp.192.168.1.99.nip.io/api/v2/products
+
