@@ -1,3 +1,25 @@
+INSTALL - Kubernetes as DaemonSET
+
+Defender —
+256MB of RAM and 8GB of host storage
+/var
+1-5% CPU 
+900 CPU shares 
+30-70 MB
+
+Registry Scan 
+1.5 * of largest image storage
+Linux capabilities Net_admin, Sys_admin, PTRACE, MKNODE , etc
+
+Serverless runtime ; Python, NODEJS./ Manually embeded defender C# , .netcore,java, nodejs , python 
+Defender: Run as ROOT , drop capabilities that is not required 
+
+
+Threat Protection :
+- malware signatures and IP reputation lists aggregated from commercial threat feeds, open source threat feeds, and Prisma Cloud Labs
+- it is delivered to your installation via the Prisma Cloud Intelligence Stream.
+
+
 Vulnerability Management :
 
 
