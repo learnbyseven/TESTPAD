@@ -1,4 +1,14 @@
 
+header block : 
+http{
+    ...
+    server_tokens off;
+    ...
+}
+
+
+
+
 EY US 
 ABB KIC/App protect 
 AXIS Scan 2 discussion
