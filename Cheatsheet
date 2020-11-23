@@ -85,7 +85,7 @@ PG server
 docker run -d -p 5432:5432 --restart always --name=postgres -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root@123 postgres
 e-70-61-7037702735 
 
-
+docker run -d -p 5432:5432 --restart always --name=postgres -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root@123 postgres:12.3-alpine
 #apt remove --purge nginx-controller-agent
 
 
