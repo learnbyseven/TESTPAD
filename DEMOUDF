@@ -12,6 +12,11 @@ SHOW ATTACK
 
 http://k8s.arcadia-finance.io:30274/trading/index.php?a=<script>
 
+//Invite your friend : add few email 
+// Attack payload 
+//{\"$ne\":\"michael@gmail.com\"} ---> inside refer friend box 
+
+
 BUILD APP PROTECT 
 CICD / flow (Local system)
 
@@ -76,7 +81,7 @@ CICD - NAP deploy on centos 7
 // ELK , open overview dashboard 
 
 
-
+CONTROLLER : 
 
 app_webapp
 web application arcadia
