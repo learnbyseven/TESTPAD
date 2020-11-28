@@ -1,4 +1,4 @@
-APP PROTECT:
+APP PROTECT: NGINX App Protect v2.1 in front of k8s
 WEBSHELL CICD Server
 --------------------
 $ cd /home/ubuntu/ && apply -f /home/ubuntu/Arcadia_k8S/all_apps.yaml && kubectl apply -f /home/ubuntu/k8s_ingress/full_ingress_arcadia.yaml
