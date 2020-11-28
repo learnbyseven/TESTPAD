@@ -1,3 +1,83 @@
+APP PROTECT:
+WEBSHELL CICD Server
+--------------------
+$ cd /home/ubuntu/ && apply -f /home/ubuntu/Arcadia_k8S/all_apps.yaml && kubectl apply -f /home/ubuntu/k8s_ingress/full_ingress_arcadia.yaml
+
+JUMPSERVER
+----------
+Browse - ArcadiaK8 - Uname: matt , pW : ilovef5
+
+SHOW ATTACK
+-----------
+
+http://k8s.arcadia-finance.io:30274/trading/index.php?a=<script>
+
+BUILD APP PROTECT 
+CICD / flow (Local system)
+
+Docker server App protect
+-------------------------
+
+Docker build (LAB)
+$ docker build -t app-protect:tc -f Dockerfile-sig-tc . 
+$ docker run -dit --name app-protect -p 80:80 -v /home/ubuntu/nginx.conf:/etc/nginx/nginx.conf app-protect:tc
+
+Threat Camp
+-----------
+JumpBOX - POSTMAN - Simulate threat campaigns 
+
+
+
+BOT PROTECTION
+--------------
+
+CICD - NAP deploy on centos 7 
+
+// $ vi /etc/nginx/policy_bots.json
+
+{
+    "policy": {
+        "name": "bot_defense_policy",
+        "template": {
+            "name": "POLICY_TEMPLATE_NGINX_BASE"
+        },
+        "applicationLanguage": "utf-8",
+        "enforcementMode": "blocking",
+        "bot-defense": {
+            "settings": {
+                "isEnabled": true
+            },
+            "mitigations": {
+                "classes": [
+                    {
+                        "name": "trusted-bot",
+                        "action": "alarm"
+                    },
+                    {
+                        "name": "untrusted-bot",
+                        "action": "block"
+                    },
+                    {
+                        "name": "malicious-bot",
+                        "action": "block"
+                    }
+                ]
+            }
+        }
+    }
+}
+
+// $ app_protect_policy_file "/etc/nginx/policy_bots.json";
+
+
+// $ nginx -s reload 
+
+// Launch Jmeter desktop - jumphost - open recent or HTTP Request Bots.jmx (Located in folder Desktop > lab-links > jmeter_files)
+// ELK , open overview dashboard 
+
+
+
+
 app_webapp
 web application arcadia
 - production-Submit 
