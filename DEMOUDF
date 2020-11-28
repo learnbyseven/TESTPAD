@@ -81,7 +81,7 @@ CICD - NAP deploy on centos 7
 // ELK , open overview dashboard 
 
 
-CONTROLLER : 
+CONTROLLER : Demo Buildout - NGINX Controller 3.10 with BIG-IP - ADC and API security
 
 app_webapp
 web application arcadia
