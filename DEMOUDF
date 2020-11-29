@@ -82,6 +82,9 @@ CICD - NAP deploy on centos 7
 
 
 CONTROLLER : Demo Buildout - NGINX Controller 3.10 with BIG-IP - ADC and API security
+Controller : admin@nginx-udf.internal / admin123!
+Jenkins : admin / admin
+GitLab : root / F5twister$
 
 app_webapp
 web application arcadia
