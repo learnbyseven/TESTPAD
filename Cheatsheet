@@ -1,3 +1,8 @@
+printf “deb https://app-protect-securityupdates.nginx.com/ubuntu/ `lsb_release -cs` nginx-plus\n” | sudo tee /etc/apt/sources.list.d/app-protect-security-updates.list
+sudo wget https://cs.nginx.com/static/keys/app-protect-security-updates.key && sudo apt-key add app-protect-security-updates.key
+sudo wget -P /etc/apt/apt.conf.d https://cs.nginx.com/static/files/90appprotect-security-updates
+
+
 
 https://github.com/b-rajesh/nginx-plus-ingress-kube-terraform
 https://github.com/b-rajesh/nginx-plus-ingress-kube-terraform
