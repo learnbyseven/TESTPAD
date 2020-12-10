@@ -1,12 +1,16 @@
+Controller;
+docker run -d -p 5432:5432 --restart always --name=postgres -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root@123 postgres
+/opt/nginx-controller/helper.sh setfeature AppSec true
+
+
+
+
+
 printf “deb https://app-protect-securityupdates.nginx.com/ubuntu/ `lsb_release -cs` nginx-plus\n” | sudo tee /etc/apt/sources.list.d/app-protect-security-updates.list
 sudo wget https://cs.nginx.com/static/keys/app-protect-security-updates.key && sudo apt-key add app-protect-security-updates.key
 sudo wget -P /etc/apt/apt.conf.d https://cs.nginx.com/static/files/90appprotect-security-updates
 
 
-
-https://github.com/b-rajesh/nginx-plus-ingress-kube-terraform
-https://github.com/b-rajesh/nginx-plus-ingress-kube-terraform
-https://github.com/b-rajesh/multi-nginx-plus-ingress-terraform
 
 Mask
 lyrics charge arrive fancy grunt stock general bike assume chuckle custom tenant
@@ -138,25 +142,11 @@ ldapsearch -ZZ -h  ad.giri.local -D test@giri.local -W -b OU=users,DC=giri,DC=lo
 ldapsearch -x -h ad.giri.local -b dc=giri,dc=local -D cn=cat,cn=Users,dc=giri,dc=local -W "uid=test"
 
 
-2
-4
-18
-19
-28
 
 
 
 
 
-
-
-CREATE TABLE emp (
-  ID SERIAL PRIMARY KEY,
-  name VARCHAR,
-  title VARCHAR,
-  age INTEGER,
-  department VARCHAR
-);
 
 
 
