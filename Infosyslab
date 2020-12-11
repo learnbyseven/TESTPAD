@@ -1,0 +1,66 @@
+Items
+-----
+
+1.Irule with Data group list
+when CLIENT_ACCEPTED {    
+
+    if { [class match [IP::client_addr] equals datagroup1] } {       
+
+        pool POOL1         
+
+        log local0. "[IP::client_addr] is 1"           
+
+    } elseif { [class match [IP::client_addr] equals datagroup2] } {       
+
+        pool POOL2       
+
+        log local0. "[IP::client_addr] is 2"           
+
+    }
+
+}
+
+Req addr (pool of IPs) 
+
+192.168.1.1 (192.168.1.1-10) > upstream 1
+192.168.1.1 (192.168.1.1-10) > upstream 1
+
+
+2.Irule with URI mapping
+when HTTP_REQUEST {
+
+    if { [HTTP::uri] starts_with "/instance1" } {
+
+        pool 1
+
+    }
+
+    elseif { [HTTP::uri] starts_with "/instance2" } {
+
+        pool 2
+
+    }
+
+    elseif { [HTTP::uri] starts_with "/instance3" } {
+
+        pool 3
+
+    }
+
+    log local0. "in HTTP_REQUEST"
+  
+
+}
+Path based rewrite
+
+
+3. Layer4 configuration with  fastL4 protocol profile & idle timeout configuration.
+(check out)
+
+
+4. SNAT Feasibility
+(By default) 
+
+
+
+
