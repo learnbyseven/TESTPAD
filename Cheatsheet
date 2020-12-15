@@ -122,7 +122,7 @@ docker run -d -p 5432:5432 --restart always --name=postgres -e POSTGRES_USER=roo
 
 
 
-08099891917_kk@airtelbroadband.in
+
 
 
 
@@ -140,6 +140,21 @@ openssl s_client -connect ad.giri.local:636 -showcerts < /dev/null
 ldapsearch -ZZ -h  ad.giri.local -D test@giri.local -W -b OU=users,DC=giri,DC=local dn
 
 ldapsearch -x -h ad.giri.local -b dc=giri,dc=local -D cn=cat,cn=Users,dc=giri,dc=local -W "uid=test"
+
+
+TSKY:
+Account Details
+
+•     Customer ID: C2101408949
+
+•     Address:  NA-Royal Regalia  505,Floor-5 SHAFT-2,NA-Royal Regalia,Royal Regalia Gandhi Path West,Lalapura Road 302034
+
+•     Email id / Registered Mobile Number: GIRIRAJ_789@HOTMAIL.COM /8600112154.
+
+•     Plan Details: Unlimited Valid for 5 Months at 100 Mbps
+
+•     Next Recharge Date: 2/11/2021 11:59:59 PM
+08099891917_kk@airtelbroadband.in
 
 
 
