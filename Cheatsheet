@@ -1,3 +1,6 @@
+JVNl
+samta789 - UN
+
 Controller;
 docker run -d -p 5432:5432 --restart always --name=postgres -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root@123 postgres
 /opt/nginx-controller/helper.sh setfeature AppSec true
