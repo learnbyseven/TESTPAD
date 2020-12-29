@@ -1,3 +1,42 @@
+method="POST",policy_name="/Common/user_defined_URL",protocol="HTTP",request_status="alerted",response_code="200"
+method="GET",policy_name="/Common/user_defined_URL",protocol="HTTP",request_status="blocked",response_code="0"
+
+Policy_applied:
+VIA : VIOL_URL
+--------------
+{
+    "policy": {
+        "name": "Block_GET_Method",
+        "template": {
+            "name": "POLICY_TEMPLATE_NGINX_URL"
+        },
+        "applicationLanguage": "utf-8",
+        "enforcementMode": "blocking",
+        "blocking-settings": {
+            "violations": [
+                {
+                    "block": true,
+                    "name": "VIOL_URL",
+		    "description": "block expect GET"
+                }
+            ]
+         },
+            "urls": [
+            	{
+                "method": "GET",
+                "name": "/",
+                "protocol": "http",
+                "type": "explicit",
+                "isAllowed": false
+            	}
+        ]
+    }
+}
+
+
+
+
+
 {
    "policy" : {
       "name" : "app_protect_strict_policy",
