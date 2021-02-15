@@ -205,5 +205,19 @@ HEADER_PAYLOAD=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6IjAwMDEifQ.eyJuYW1lIj
 curl -H 'Accept: application/json' -H "Authorization: Bearer `cat quotes.jwt`" http://ngp.192.168.1.99.nip.io/api/v2/products
 
 
+NUTRILITE® Ashwagandha
+NUTRILITE® Concentrated Fruits and Vegetables
+NUTRILITE® Daily
+NUTRILITE® Ch Balance
+NUTRILITE® Madhunashini, Shunti & Twak
+NUTRILITE® Amalaki, Vibhitaki & Haritaki (trifla)
+NUTRILITE® Natural B with Yeast
+NUTRILITE® Natural C
+UTRILITE® Milk Thistle Plus
+NUTRILITE® Ginseng Cherry Plus
+NUTRILITE® Coenzyme Q10 Citrus Concentrate
+NUTRILITE® Fiber
+NUTRILITE® All Plant Protein Powder
+
 
 
