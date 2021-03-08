@@ -1,3 +1,7 @@
+
+
+
+
 JWT AUTHENTICATION :https://www.nginx.com/blog/authenticating-api-clients-jwt-nginx-plus/
 curl -k -H "Authorization: Bearer `cat quotes.jwt`" https://myapi.192.168.1.11.nip.io/api/v1/users
 
