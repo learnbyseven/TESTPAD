@@ -1,4 +1,14 @@
 
+·         Adding DHE Ciphers with G parameter length 256
+
+·         Adding SHA384 and SHA512 support
+
+·         Adding SAN Support
+
+
+
+
+
 
 
 
